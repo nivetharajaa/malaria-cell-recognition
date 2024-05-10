@@ -15,39 +15,48 @@ Malaria dataset of 27,558 cell images with an equal number of parasitized and un
 
 ## DESIGN STEPS
 
-STEP 1:
+### STEP 1:
 
 Import tensorflow and preprocessing libraries
-STEP 2:
+
+### STEP 2:
 
 Download and load the dataset folder
-STEP 3:
+
+### STEP 3:
 
 Split the training and testing folders.
-STEP 4:
+
+### STEP 4:
 
 Perform image data generation methods.
-STEP-5:
+
+### STEP-5:
 
 Build the convolutional neural network model
-STEP-6:
+
+### STEP-6:
 
 Train the model with the training data
-STEP-7:
+
+### STEP-7:
 
 Plot the performance plot
-STEP-8:
+
+### STEP-8:
 
 Evaluate the model with the testing data using probability prediction(uninfected-> prob>0.5,parasitized-> <=0.5)
-STEP-9:
+
+### STEP-9:
+
 Fit the model and predict the sample input.
 
 ## PROGRAM
 ```
 
-### Name:NIVETHA A
+Name:NIVETHA A
 
-### Register Number:212222230101
+Register Number:212222230101
 
 import tensorflow as tf
 # to share the GPU resources for multiple sessions
